@@ -89,9 +89,12 @@ Imports:
     scCustomize,
     scDblFinder,
     scmap,
+    scplotter,
+    scoretable,
     scran,
     sct2,
     Seurat,
+    SeuratExtend,
     SeuratObject,
     shiny,
     ShinyCell,
@@ -112,7 +115,9 @@ Remotes:
     davidsjoberg/ggsankey,
     pcantalupo/nvutils,
     immunogenomics/presto,
+    pcantalupo/scoretable,
+    pwwang/scplotter,
     pcantalupo/sct2,
+    huayc09/SeuratExtend,
     SGDDNB/ShinyCell,
     jmw86069/venndir
-
