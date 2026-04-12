@@ -16,6 +16,7 @@ Imports:
     BiocManager,
     BiocGenerics,
     biomaRt,
+    broom.mixed,
     BSgenome,
     celldex,
     clusterProfiler,
@@ -109,8 +110,13 @@ Imports:
     tidyverse,
     tximport,
     variancePartition,
-    venndir
-Remotes:
+    venndir,
+    viewseurat (>= 0.5.2),
+    dumptruck (>= 0.1.0),
+    clusterProfilerEnrichment (>= 0.7.1),
+    furrr,
+    future
+Remotes:  
     showteeth/ggcoverage,
     davidsjoberg/ggsankey,
     pcantalupo/nvutils,
@@ -120,4 +126,7 @@ Remotes:
     pcantalupo/sct2,
     huayc09/SeuratExtend,
     SGDDNB/ShinyCell,
-    jmw86069/venndir
+    jmw86069/venndir,
+    pcantalupo/viewseurat,
+    pcantalupo/dumptruck,
+    pcantalupo/clusterProfilerEnrichment
