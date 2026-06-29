@@ -93,6 +93,7 @@ Imports:
     scplotter,
     scoretable,
     scran,
+    scrapper,
     sct2,
     Seurat,
     SeuratExtend,
